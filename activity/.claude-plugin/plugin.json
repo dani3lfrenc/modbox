@@ -1,0 +1,7 @@
+{
+  "name": "activity",
+  "version": "1.0.0",
+  "description": "A pane beside the chat with the session's activity: duration, prompts, tools, token usage and a bouncing Claude",
+  "license": "MIT",
+  "types": "./types/index.d.ts"
+}

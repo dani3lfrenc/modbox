@@ -1,0 +1,15 @@
+{
+  "name": "shell-guard",
+  "version": "0.1.0",
+  "description": "Stops Bash syntax from reaching PowerShell (and the other way round) and tells Claude what to write instead",
+  "license": "MIT",
+  "userConfig": {
+    "powershell": {
+      "type": "string",
+      "title": "PowerShell version",
+      "description": "5.1 has no && or || between commands; 7 does",
+      "options": ["5.1", "7"],
+      "default": "5.1"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "modbox",
+  "owner": { "name": "dani3lfrenc" },
+  "plugins": [
+    {
+      "name": "activity",
+      "source": "./activity",
+      "description": "A pane beside the chat with the session's activity: duration, prompts, tools, token usage and a bouncing Claude"
+    },
+    {
+      "name": "shell-guard",
+      "source": "./shell-guard",
+      "description": "Stops Bash syntax from reaching PowerShell (and the other way round) and tells Claude what to write instead"
+    }
+  ]
+}
